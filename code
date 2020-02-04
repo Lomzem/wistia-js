@@ -1,0 +1,9 @@
+wistia1
+
+var lomzem1=document.evaluate("/html/body/div[2]/div[1]/div[2]/div/div[2]",document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue;var lomzem2=lomzem1.getAttribute('data-wistia-id');var lomzem3='https://fast.wistia.net/embed/iframe/'+lomzem2;window.open(lomzem3, '_blank');
+
+
+
+wistia2
+
+var lomzem4=document.evaluate("/html/body/script[4]/text()",document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue;var lomzem5=lomzem4.wholeText;var lomzem6=lomzem5.match(/https(.+?(?=.bin"))/g)[0];window.open(lomzem6,'_self');
